@@ -1,18 +1,18 @@
 //
-//  ViewController.h
+//  RoundView.h
 //  转盘
 //
-//  Created by meng jia on 16/10/10.
+//  Created by meng jia on 16/10/11.
 //  Copyright © 2016年 meng jia. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
 typedef NS_ENUM(NSInteger , FTT_RoundviewType) {
     FTT_RoundviewTypeSystem = 0,
     FTT_RoundviewTypeCustom ,
 };
-@interface ViewController : UIViewController
+@interface RoundView : UIView
+
 // 按钮风格
 @property (nonatomic , assign) FTT_RoundviewType Type;
 // 按钮的宽度
@@ -37,4 +37,3 @@ typedef NS_ENUM(NSInteger , FTT_RoundviewType) {
  */
 - (void)BtnType:(FTT_RoundviewType)type BtnWitch:(CGFloat)BtnWitch  adjustsFontSizesTowidth:(BOOL)sizeWith  msaksToBounds:(BOOL)msak conrenrRadius:(CGFloat)radius image:(NSMutableArray *)image TitileArray:(NSMutableArray *)titileArray titileColor:(UIColor *)titleColor;
 @end
-

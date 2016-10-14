@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BDC28761DACB41E00F9F99F /* hongb0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC28741DACB41E00F9F99F /* hongb0.png */; };
+		3BDC28771DACB41E00F9F99F /* hongb1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC28751DACB41E00F9F99F /* hongb1.png */; };
+		3BDC28BD1DACC2EF00F9F99F /* hongb2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC28BB1DACC2EF00F9F99F /* hongb2.png */; };
+		3BDC28C01DACCD9500F9F99F /* hongb3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC28BF1DACCD9500F9F99F /* hongb3.png */; };
+		3BDC28C41DACCFDD00F9F99F /* hongb4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDC28C31DACCFDD00F9F99F /* hongb4.png */; };
+		3BEF8D4A1DADDF080031F62E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF8D491DADDF080031F62E /* AVFoundation.framework */; };
+		3BEF8D4E1DADE4A80031F62E /* yinx.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BEF8D4D1DADE4A80031F62E /* yinx.mp3 */; };
+		3BEF8D501DADE6710031F62E /* yinx1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BEF8D4F1DADE6710031F62E /* yinx1.mp3 */; };
 		3BFB70B01DAB9D6500270E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB70AF1DAB9D6500270E3F /* main.m */; };
 		3BFB70B31DAB9D6500270E3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB70B21DAB9D6500270E3F /* AppDelegate.m */; };
 		3BFB70B61DAB9D6500270E3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB70B51DAB9D6500270E3F /* ViewController.m */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BDC28741DACB41E00F9F99F /* hongb0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongb0.png; sourceTree = "<group>"; };
+		3BDC28751DACB41E00F9F99F /* hongb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongb1.png; sourceTree = "<group>"; };
+		3BDC28BB1DACC2EF00F9F99F /* hongb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongb2.png; sourceTree = "<group>"; };
+		3BDC28BF1DACCD9500F9F99F /* hongb3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongb3.png; sourceTree = "<group>"; };
+		3BDC28C31DACCFDD00F9F99F /* hongb4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongb4.png; sourceTree = "<group>"; };
+		3BEF8D491DADDF080031F62E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3BEF8D4D1DADE4A80031F62E /* yinx.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yinx.mp3; sourceTree = "<group>"; };
+		3BEF8D4F1DADE6710031F62E /* yinx1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yinx1.mp3; sourceTree = "<group>"; };
 		3BFB70AB1DAB9D6500270E3F /* 转盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "转盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFB70AF1DAB9D6500270E3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BFB70B11DAB9D6500270E3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BEF8D4A1DADDF080031F62E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BDC286B1DAC9A4C00F9F99F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BDC286C1DAC9A5A00F9F99F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BFB70B41DAB9D6500270E3F /* ViewController.h */,
+				3BFB70B51DAB9D6500270E3F /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3BDC286D1DAC9A6400F9F99F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3BEF8D481DADDF080031F62E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEF8D491DADDF080031F62E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BFB70A21DAB9D6500270E3F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,7 @@
 				3BFB70C71DAB9D6500270E3F /* 转盘Tests */,
 				3BFB70D21DAB9D6500270E3F /* 转盘UITests */,
 				3BFB70AC1DAB9D6500270E3F /* Products */,
+				3BEF8D481DADDF080031F62E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +150,18 @@
 		3BFB70AD1DAB9D6500270E3F /* 转盘 */ = {
 			isa = PBXGroup;
 			children = (
+				3BEF8D4F1DADE6710031F62E /* yinx1.mp3 */,
+				3BEF8D4D1DADE4A80031F62E /* yinx.mp3 */,
+				3BDC28C31DACCFDD00F9F99F /* hongb4.png */,
+				3BDC28BF1DACCD9500F9F99F /* hongb3.png */,
+				3BDC28BB1DACC2EF00F9F99F /* hongb2.png */,
+				3BDC28741DACB41E00F9F99F /* hongb0.png */,
+				3BDC28751DACB41E00F9F99F /* hongb1.png */,
+				3BDC286D1DAC9A6400F9F99F /* View */,
+				3BDC286C1DAC9A5A00F9F99F /* Controller */,
+				3BDC286B1DAC9A4C00F9F99F /* Model */,
 				3BFB70B11DAB9D6500270E3F /* AppDelegate.h */,
 				3BFB70B21DAB9D6500270E3F /* AppDelegate.m */,
-				3BFB70B41DAB9D6500270E3F /* ViewController.h */,
-				3BFB70B51DAB9D6500270E3F /* ViewController.m */,
 				3BFB70B71DAB9D6500270E3F /* Main.storyboard */,
 				3BFB70BA1DAB9D6500270E3F /* Assets.xcassets */,
 				3BFB70BC1DAB9D6500270E3F /* LaunchScreen.storyboard */,
@@ -247,8 +304,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFB70BE1DAB9D6500270E3F /* LaunchScreen.storyboard in Resources */,
+				3BDC28C01DACCD9500F9F99F /* hongb3.png in Resources */,
+				3BEF8D501DADE6710031F62E /* yinx1.mp3 in Resources */,
+				3BEF8D4E1DADE4A80031F62E /* yinx.mp3 in Resources */,
+				3BDC28BD1DACC2EF00F9F99F /* hongb2.png in Resources */,
 				3BFB70BB1DAB9D6500270E3F /* Assets.xcassets in Resources */,
 				3BFB70B91DAB9D6500270E3F /* Main.storyboard in Resources */,
+				3BDC28771DACB41E00F9F99F /* hongb1.png in Resources */,
+				3BDC28761DACB41E00F9F99F /* hongb0.png in Resources */,
+				3BDC28C41DACCFDD00F9F99F /* hongb4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +571,7 @@
 				3BFB70DA1DAB9D6500270E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BFB70DB1DAB9D6500270E3F /* Build configuration list for PBXNativeTarget "转盘Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +580,7 @@
 				3BFB70DD1DAB9D6500270E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BFB70DE1DAB9D6500270E3F /* Build configuration list for PBXNativeTarget "转盘UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +589,7 @@
 				3BFB70E01DAB9D6500270E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
